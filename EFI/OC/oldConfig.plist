@@ -235,13 +235,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VirtualSMC.kext/Contents/Plugins/SMCProcessor.kext</string>
+                    <string>VirtualSMC.kext/Contents/Plugins/SMCLightSensor.kext</string>
                     <key>Comment</key>
                     <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCProcessor</string>
+                    <string>Contents/MacOS/SMCLightSensor</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -253,13 +253,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>VirtualSMC.kext/Contents/Plugins/SMCLightSensor.kext</string>
+                    <string>VirtualSMC.kext/Contents/Plugins/SMCProcessor.kext</string>
                     <key>Comment</key>
                     <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/SMCLightSensor</string>
+                    <string>Contents/MacOS/SMCProcessor</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -325,85 +325,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/RealtekRTL8111.kext</string>
+                    <string>Lan.kext/Contents/PlugIns/AndroidUSB.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.2</string>
+                    <string>V9.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/RealtekRTL8111</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/RealtekRTL8100.kext</string>
-                    <key>Comment</key>
-                    <string>V2.0.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/RealtekRTL8100</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/LucyRTL8125Ethernet.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.0d12</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/LucyRTL8125Ethernet</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/IntelMausi.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.8</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelMausi</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/AtherosE2200Ethernet.kext</string>
-                    <key>Comment</key>
-                    <string>V2.3.2</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AtherosE2200Ethernet</string>
+                    <string>Contents/MacOS/HoRNDIS</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -433,13 +361,85 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Lan.kext/Contents/PlugIns/AndroidUSB.kext</string>
+                    <string>Lan.kext/Contents/PlugIns/AtherosE2200Ethernet.kext</string>
                     <key>Comment</key>
-                    <string>V9.2</string>
+                    <string>V2.3.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/HoRNDIS</string>
+                    <string>Contents/MacOS/AtherosE2200Ethernet</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Lan.kext/Contents/PlugIns/IntelMausi.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.8</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelMausi</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Lan.kext/Contents/PlugIns/LucyRTL8125Ethernet.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.0d12</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/LucyRTL8125Ethernet</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Lan.kext/Contents/PlugIns/RealtekRTL8100.kext</string>
+                    <key>Comment</key>
+                    <string>V2.0.1</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RealtekRTL8100</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>Lan.kext/Contents/PlugIns/RealtekRTL8111.kext</string>
+                    <key>Comment</key>
+                    <string>V2.4.2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RealtekRTL8111</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -559,42 +559,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>BrcmFirmwareData.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.8</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmFirmwareData</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>BrcmPatchRAM3.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.8</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/BrcmPatchRAM3</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>USBToolBox.kext</string>
                     <key>Comment</key>
                     <string>V1.0.1</string>
@@ -678,24 +642,6 @@
                     <string>22.99.99</string>
                     <key>MinKernel</key>
                     <string>22.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>itlwm.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/itlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -881,7 +827,7 @@
                 <key>AuthRestart</key>
                 <false/>
                 <key>BlacklistAppleUpdate</key>
-                <true/>
+                <false/>
                 <key>DmgLoading</key>
                 <string>Signed</string>
                 <key>EnablePassword</key>
@@ -895,7 +841,7 @@
                 <key>PasswordSalt</key>
                 <data></data>
                 <key>ScanPolicy</key>
-                <integer>0</integer>
+                <integer>2688771</integer>
                 <key>SecureBootModel</key>
                 <string>Disabled</string>
                 <key>Vault</key>
@@ -936,7 +882,30 @@
                 <false/>
             </dict>
             <key>Tools</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <false/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <false/>
+                    <key>Name</key>
+                    <string>UEFI Shell</string>
+                    <key>Path</key>
+                    <string>OpenShell.efi</string>
+                    <key>RealPath</key>
+                    <false/>
+                    <key>TextMode</key>
+                    <false/>
+                </dict>
+            </array>
         </dict>
         <key>NVRAM</key>
         <dict>
@@ -1239,7 +1208,7 @@
                 <key>ConsoleFont</key>
                 <string></string>
                 <key>ConsoleMode</key>
-                <string></string>
+                <string>Max</string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
