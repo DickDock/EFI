@@ -1262,7 +1262,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
