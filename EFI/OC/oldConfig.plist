@@ -720,7 +720,7 @@
                 <key>CustomPciSerialDevice</key>
                 <false/>
                 <key>CustomSMBIOSGuid</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapper</key>
                 <true/>
                 <key>DisableIoMapperMapping</key>
@@ -1011,7 +1011,7 @@
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
-                <true/>
+                <false/>
                 <key>MLB</key>
                 <string>F5K145902QXK3F7AD</string>
                 <key>MaxBIOSVersion</key>
@@ -1021,7 +1021,7 @@
                 <key>ROM</key>
                 <data>NsLyIsPN</data>
                 <key>SpoofVendor</key>
-                <true/>
+                <false/>
                 <key>SystemMemoryStatus</key>
                 <string>Upgradable</string>
                 <key>SystemProductName</key>
@@ -1038,7 +1038,7 @@
             <key>UpdateSMBIOS</key>
             <true/>
             <key>UpdateSMBIOSMode</key>
-            <string>Create</string>
+            <string>Custom</string>
             <key>UseRawUuidEncoding</key>
             <true/>
         </dict>
