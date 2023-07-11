@@ -8,7 +8,7 @@
 
 ## 系统版本
 
-macOS Ventura 13.4
+macOS Ventura 14.0
 
 ## 实现功能
 
