@@ -837,7 +837,7 @@
                 <key>BlacklistAppleUpdate</key>
                 <false/>
                 <key>DmgLoading</key>
-                <string>Signed</string>
+                <string>Disabled</string>
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
