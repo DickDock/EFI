@@ -944,7 +944,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>alcid=12 agdpmod=pikera watchdog=0 keepsyms=1 -wegbeta igfxonln=1</string>
+                    <string>alcid=12 agdpmod=pikera watchdog=0 keepsyms=1 -wegbeta igfxonln=1 revpatch=sbvmm</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>run-efi-updater</key>
@@ -1316,6 +1316,8 @@
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
+                <false/>
+                <key>ShimRetainProtocol</key>
                 <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
